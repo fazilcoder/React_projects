@@ -1,0 +1,41 @@
+.container{
+    border:2px solid black;
+    height:800px;
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    row-gap:10px;
+    column-gap: 10px;
+
+}
+.items{
+    
+    background-color: pink;
+    
+}
+.Header{
+    grid-column: 1/13;
+    text-align: center;
+}
+.sidebar{
+    grid-column: 1/4;
+    grid-row:2/11;
+    text-align: center;
+}
+.nav{
+    grid-column:4/11;
+    text-align: center;
+}
+.ads{
+    grid-row:2/11;
+    grid-column:11/13;
+    text-align: center;
+}
+.main{
+    grid-row:3/11;
+    grid-column: 4/11;
+    text-align: center;
+}
+.foot{
+    grid-column:1/13;
+}

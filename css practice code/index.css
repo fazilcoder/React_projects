@@ -1,0 +1,25 @@
+#myId p{
+    color:green;
+}
+button:hover{
+    color:white;
+    background-color: black;
+}
+h3:hover{
+    text-decoration: none;
+    color:yellow;
+}
+button:active{
+    background-color: brown;
+}
+p:active{
+    font-weight: bold;
+}
+input[type="radio"]:checked+label{
+    color:yellow;
+    background-color: beige;
+    font-weight: bold;
+}
+p::selection{
+    background-color: blue;
+}

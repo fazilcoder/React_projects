@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+}
+button{
+    font-size:15px;
+    
+}
+div{
+    height:100px;
+    width:600px;
+    margin:auto;
+    margin-top: 10px;
+    border:2px solid black;
+    font-size: 20px;
+}
